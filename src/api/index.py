@@ -38,3 +38,13 @@ def main():
     except Exception:
         res = "Error"
     return res
+
+@app.route("/api/test", methods=["GET"])
+def test():
+    try:
+        return {'res':'Hello World'}
+    except Exception as e:
+        print('Something went wrong.')
+        print(e)
+        res = {"res": "Something went wrong"}
+    return res
