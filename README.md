@@ -1,6 +1,8 @@
 ## Forest Info Bot - A RAG app for exploring a large pdf (1, for now). Implemented to support Central African Environmental Preservation
 
-The repo contains the Nextjs ui and backend Fastapi, the PDFs and a workspace folder
+The repo contains the Nextjs ui and backend Fastapi, the PDFs and a workspace folder.
+
+**Note** This project was presented to the Central African Evnironmental Preservation in July 2024. The project is no longer being maintained, and deployments may be broken. 
 
 ## Getting Started
 
